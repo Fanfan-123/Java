@@ -3,6 +3,7 @@ class Person1{
         System.out.println(s);
     }
 }
+
 public class Code_练习17和18 {
     public static void main(String[] args) {
         Person1[] person = {
