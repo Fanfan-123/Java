@@ -5,7 +5,6 @@ public class Code_练习9 {
             System.out.println(fib(i));
         }
     }
-
     public static int fib(int v) {
         if (v <= 2) {
             return 1;
