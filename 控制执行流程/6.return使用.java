@@ -17,6 +17,5 @@ public class Code_练习6 {
         }
         System.out.println(end+"不能小于"+begin);
         return 0;
-
     }
 }
