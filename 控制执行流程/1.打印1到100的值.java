@@ -23,7 +23,6 @@ public class Code_练习1 {
             i++;
         }
     }
-
     //3.使用 do...while 循环
     public static void print3(int begin,int end){
         int i = begin;
