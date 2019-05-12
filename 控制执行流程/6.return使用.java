@@ -6,7 +6,6 @@ public class Code_练习6 {
         System.out.println(test(10,5,7));
         System.out.println(test(5,5,5));
     }
-
     public static int test(int testval,int begin,int end){
         if(end >= begin){
             if (testval >= begin && testval<=end){
