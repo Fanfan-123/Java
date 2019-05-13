@@ -9,7 +9,6 @@ public class Test0001{
 		System.out.println(person2.getInfo());
 	}
 }
-
 //1，定义抽象类
 abstract class Person{
 	
