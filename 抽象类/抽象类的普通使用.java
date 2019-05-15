@@ -24,7 +24,6 @@ abstract class Person{
 	//1，1定义抽象方法getInfo（）
 	public abstract String getInfo();
 }
-
 //2，定义Student 子类继承抽象类
 //2.1 子类中覆写父类的抽象方法（具体实现）
 class Student extends Person{
