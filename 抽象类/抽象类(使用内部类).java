@@ -36,3 +36,4 @@ abstract class Person{
 		return new Worker("王五");
 	}
 }
+
