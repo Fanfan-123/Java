@@ -1,5 +1,4 @@
 
-
 interface Phone{
 	
 	void printInfo();
