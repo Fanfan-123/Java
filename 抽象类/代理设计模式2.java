@@ -32,7 +32,6 @@ class CourierSendFlower implements SendFlower{
 		System.out.println("客户签收。");
 	}
 }
-
 class Factory{
 	public static SendFlower getInstance(){
 		return new CourierSendFlower(new BoySendFlower("小王","alice"));
