@@ -26,6 +26,7 @@ class ProxyTask implements Task{
 	 public void servePhone(){
 		 System.out.println("手机的售后服务。");
 	 }
+	
 //3.4 在辅助类中完成买手机这一任务
 //3.4.1 this直接调用的是	本类中的方法
 //3.4.2 this.task调用的是RealTask类中的方法，该方法是真正的操作任务。 
