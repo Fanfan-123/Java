@@ -30,7 +30,6 @@ class Ios implements OperationSytem{
 		System.out.println("该操作系统是iOS操作系统。");
 	}
 }
-
 interface Factory{
 	Phone createPhone();
 	OperationSytem createSystem();
