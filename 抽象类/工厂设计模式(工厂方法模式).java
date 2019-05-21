@@ -8,7 +8,6 @@ class Iphone implements Phone{
 	  System.out.println("这是一部苹果手机。");
 	}
 }
-
 class Huawei implements Phone{
 	public void printInfo(){
 		System.out.println("这是一部华为手机。");
