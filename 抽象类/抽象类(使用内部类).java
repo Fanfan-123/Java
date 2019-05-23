@@ -1,5 +1,4 @@
 public class Test0001{
-	
 	public static void main(String[] args){
 //2. Person类已经在其子类 Worker 中实例化，此处可直接创建对象即可
 		Person person3 = Person.getObject();
