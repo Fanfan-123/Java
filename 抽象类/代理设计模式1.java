@@ -35,7 +35,6 @@ class ProxyTask implements Task{
 		 this.servePhone();
 	 }
 }
-
 //4. 定义一个工厂用来进行实例化
 //接口不能进行实例化，通过其子类进行实例化
 class Factory{
