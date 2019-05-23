@@ -1,5 +1,4 @@
 
-
 //1. 首先定义一接口，在接口中声明任务的方法。
 interface Task{
 	void buyPhone();
