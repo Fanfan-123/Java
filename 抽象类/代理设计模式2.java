@@ -2,6 +2,7 @@
 interface SendFlower{
 	void sendFlower();
 }
+
 //2. 定义一个子类，负责真实任务的完成，此处就是完成"小王给女朋友alice送花"的任务。
 class BoySendFlower implements SendFlower{
 	
