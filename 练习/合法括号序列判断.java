@@ -1,5 +1,3 @@
-package com.kelly;
-
 import java.util.Stack;
 
 public class day3_2 {
