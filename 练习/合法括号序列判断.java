@@ -31,4 +31,3 @@ public class day3_2 {
         d.chkParenthesis("())",3);
     }
 }
-
