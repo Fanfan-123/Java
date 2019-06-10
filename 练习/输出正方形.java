@@ -1,5 +1,3 @@
-package com.kelly;
-
 import java.util.Scanner;
 
 public class Day_13 {
