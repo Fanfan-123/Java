@@ -1,5 +1,4 @@
  class Person2{
- 
 	 //属性——private封装
 	private String name;
 	private int age;
