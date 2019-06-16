@@ -9,6 +9,7 @@
        System.out.print(j+"*"+i+"="+c+"\t");    //\t 控制每行之间的距离
    }
    System.out.println();                        //换行
+   
   }
  }
 }
