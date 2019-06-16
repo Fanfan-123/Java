@@ -1,5 +1,4 @@
  class SetterAndGetter{
- 
        //封装，设置私有属性
 	private String name;
 	private int age;
