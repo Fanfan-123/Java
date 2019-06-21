@@ -22,6 +22,7 @@ class Test4{
 		inner.print();
 	}
 }
+
 public class TestClass{
 	public static void main(String[] args){
 		Test4 out = new Test4();
