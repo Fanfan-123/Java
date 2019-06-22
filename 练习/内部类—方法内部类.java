@@ -9,6 +9,7 @@ class Outer{
 		}
 		new Inner().print();//创建匿名对象并调用方法内部类中的方法
 	}
+	
 }
 public class TestClass{
 	public static void main(String[] args){
