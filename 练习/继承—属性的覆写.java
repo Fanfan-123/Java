@@ -5,7 +5,6 @@ public class TestFatherAndSon{
 	}
 }
 
-
 class Person{
 	//父类中的属性不为private时，子类才能覆写父类中的属性
 	public String name = "kelly";
