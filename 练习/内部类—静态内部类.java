@@ -1,7 +1,6 @@
 class Outer{
 	private static String name = "jack";
 	static class Inner{
-		
 		public void print(){
 			//静态内部类使用外部类的实行时，只能调用外部类的static属性
 			//此时不能用 （属性名.this.属性名）形式，直接使用属性名即可
