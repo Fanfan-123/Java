@@ -7,7 +7,6 @@ class Person2{
 	public Person2(String name,int age){
 		this.name = name;
 		this.age = age;
-		
 	}
 	//方法
 	public void intriduce(){
