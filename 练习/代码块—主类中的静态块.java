@@ -1,5 +1,6 @@
 public class Example1{
 	//主类中的静态代码块
+
 	static {
 		System.out.println("0,主类下的静态代码块");
 	}
