@@ -2,7 +2,6 @@
        //封装，设置私有属性
 	private String name;
 	private int age;
-	
 	//构造方法
 	public SetterAndGetter(){
 	}
