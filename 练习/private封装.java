@@ -29,7 +29,6 @@
 	public int getAge(){
 		return age;
 	}
-	
 	//打印信息方法
 	//私有属性可以直接在它本类中使用
 	public void intriduce(){
