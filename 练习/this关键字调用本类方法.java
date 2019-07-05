@@ -1,4 +1,5 @@
 class Person2{
+	
 	//方法
 	private String name;
 	//构造方法
