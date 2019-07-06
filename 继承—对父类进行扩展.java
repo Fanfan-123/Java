@@ -9,6 +9,7 @@ public class TestExtends{
 	    System.out.println("姓名："+stu.getName()+"，年龄："+stu.getAge()+",学号："+stu.getNum());
 }
 }
+
 //父类 
 class Person{
         private String name;
