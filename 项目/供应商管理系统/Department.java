@@ -8,7 +8,6 @@ public class Department {
 	public Department(){
 		
 	}
-	
 	public Department(int d_id, String d_name, String d_admin) {
 		super();
 		D_id = d_id;
