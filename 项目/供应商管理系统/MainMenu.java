@@ -220,7 +220,6 @@ public class MainMenu {
 
 		JSeparator separator_7 = new JSeparator();
 		DepartmentManagement.add(separator_7);
-
 		JMenuItem D_modify = new JMenuItem("修改供应信息");
 		D_modify.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
