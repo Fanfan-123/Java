@@ -28,7 +28,6 @@ public class baseDao {
 			e.printStackTrace();
 			System.out.println(">>>baseDao更新出错！");
 		}
-		
 		DBUtil.close(conn,st);
 	}
 	public <T> List<T> queryList(String sql,Mapper<T> mapper,String ...args){
