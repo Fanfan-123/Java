@@ -33,6 +33,7 @@ public class Department {
 	public void setD_admin(String d_admin) {
 		D_admin = d_admin;
 	}
+	
 	@Override
 	public String toString() {
 		return "Department [D_id=" + D_id + ", D_name=" + D_name + ", D_admin=" + D_admin + "]";
