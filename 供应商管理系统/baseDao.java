@@ -35,7 +35,6 @@ public class baseDao {
 		PreparedStatement st=null;
 		ResultSet rs=null;
 		List<T> list=null;
-		
 		try {
 			st=conn.prepareStatement(sql);
 			for(int i=0;i<args.length;i++){
