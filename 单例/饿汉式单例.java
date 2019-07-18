@@ -9,7 +9,6 @@ class Singleton1{
     public static Singleton1 getInstance(){
         return INSTANCE;
     }
-
 }
 public class SingletonTest {
     public static void main(String[] args) {
