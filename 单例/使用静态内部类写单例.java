@@ -1,5 +1,4 @@
 /3. 静态内部类
-
 class Singleton3{
     //3.1 构造方法私有化
     private Singleton3(){}
