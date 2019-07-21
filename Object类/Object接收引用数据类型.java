@@ -2,6 +2,7 @@ package www.fanfan.com;
 interface IMessage{
     void print();
 }
+
 class Message implements IMessage{
     public void print(){
         System.out.println("1");
