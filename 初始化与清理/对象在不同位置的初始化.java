@@ -18,7 +18,6 @@ public class Initialization {
               "s2:"+s2+"\n"+
               "s3:"+s3+"\n";
     }
-
     public static void main(String[] args) {
       //4. 使用实例初始化
       Initialization itlize = new Initialization();
