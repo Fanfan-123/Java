@@ -8,7 +8,6 @@ public class Initialization {
       //2. 在构造方法中进行初始化
       s2 = "kelly";
     }
-
     public String toString(){
       //3. 惰性初始化
       if (s3 == null){
