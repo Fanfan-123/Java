@@ -25,6 +25,5 @@ public class MessageTest {
 //    public static void fun(Message<String> mag){
 //        System.out.println(mag.getMessage());
 //    }
-
 }
 
