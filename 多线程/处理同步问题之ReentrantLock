@@ -1,0 +1,41 @@
+package www.threadsynchronize;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+class MyThread2 implements Runnable{
+    private int ticket = 100;
+    private Lock lockTicket = new ReentrantLock();
+    @Override
+    public void run() {
+        for (int i = 0; i < 1000;i++){
+            lockTicket.lock();
+            if (ticket > 0){
+                try {
+                    Thread.sleep(100);
+                    System.out.println(Thread.currentThread().getName()+"还有"+ticket-- +"张票");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }finally {
+                    lockTicket.unlock();
+                }
+            }
+        }
+    }
+}
+
+public class LockTest {
+    public static void main(String[] args) {
+        MyThread2 myThread2 = new MyThread2();
+        Thread t1 = new Thread(myThread2,"黄牛A");
+        Thread t2 = new Thread(myThread2,"黄牛B");
+        Thread t3 = new Thread(myThread2,"黄牛C");
+        t1.setPriority(Thread.MIN_PRIORITY);
+        t2.setPriority(Thread.MAX_PRIORITY);
+        t3.setPriority(Thread.MIN_PRIORITY);
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+
