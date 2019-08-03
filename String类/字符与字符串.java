@@ -17,6 +17,7 @@ public class String类方法的使用 {
         System.out.println("---------------------");
         //1.4 将字符数组中ch的部分内容变为字符串
         String str2 = new String(ch,2,5);
+        
         System.out.println("从数组下标为2的元素开始，将五个元素转化为字符串："+str2);
     }
 }
