@@ -79,8 +79,9 @@ public class Test4 {
         Goods goods = new Goods();
         Thread product = new Thread(new Producter(goods),"生产者");
         Thread customer = new Thread(new Customer(goods),"消费者");
-        customer.start();
-        Thread.sleep(1000);
+        //启动生产者线程
         product.start();
+        //启动消费者线程
+        customer.start();
     }
 }
